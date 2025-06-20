@@ -37,7 +37,7 @@ export const publishPost = async (
 
 	// get frontmatter
 	const noteFile = view.app.workspace.getActiveFile();
-	const metaMatter = app.metadataCache.getFileCache(noteFile).frontmatter;
+	const metaMatter = view.app.metadataCache.getFileCache(noteFile).frontmatter;
 	const data = matter(view.getViewData());
 
 	const frontmatter = {
@@ -47,6 +47,7 @@ export const publishPost = async (
 		status: metaMatter?.published ? "published" : "draft",
 		excerpt: metaMatter?.excerpt || undefined,
 		feature_image: metaMatter?.feature_image || undefined,
+		feature_image_caption: metaMatter?.feature_image_caption || undefined,
 	};
 	try{
 	const result = await requestUrl({
