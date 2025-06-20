@@ -1,10 +1,10 @@
 {
-	"id": "send-to-ghost",
-	"name": "Send to Ghost",
-	"version": "1.0.4",
+	"id": "send-to-ghost-nb",
+	"name": "Send to Ghost NB Fork",
+	"version": "1.0.5",
 	"minAppVersion": "0.12.0",
 	"description": "Send and publish notes to your Ghost blog with a single click",
-	"author": "Southpaw1496",
-	"authorUrl": "https://southpaw1496.me",
+	"author": "ngurah-bagus-trisna",
+	"authorUrl": "",
 	"isDesktopOnly": true
 }

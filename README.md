@@ -31,6 +31,7 @@ featured: Boolean (default: false)
 published: Boolean (default: false)
 excerpt: String (default: blank)
 feature_image: String (default: blank)
+feature_image_caption: String (default: blank)
 ---
 ```
 
